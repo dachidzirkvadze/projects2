@@ -1,0 +1,225 @@
+@font-face {
+    font-family: font;
+    src: url(../font/bpg_nino_mtavruli_bold.ttf);
+}
+*{
+    max-width: 100%;
+}
+body{
+    background-color: #f1f1f1!important;
+}
+.xd {
+    z-index: 9999999;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    position: fixed!important;
+    transition: all .3s;
+    padding: 10px;
+    color: white!important;
+  }
+.xxdd{
+    z-index: 9999999;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    background-color: rgba(29, 29, 29, 0.651)!important;
+    color: white;
+    position: fixed!important;
+    transition: all .3s;
+    padding: 0px!important;
+    color: white!important;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255)
+}
+.nav-link{
+    color: white!important;
+    margin-right: 5px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+    color: rgba(255, 255, 255, 0.712)!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 18px;
+}
+.dd{
+    justify-content: flex-end;
+}
+.top{
+    z-index: 999999;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(179, 179, 179);
+
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 50px;
+}
+.top:hover{
+    background-color: gray;
+}
+.top:focus{
+    background-color: rgb(68, 68, 68);
+}
+
+
+
+    .topsite {
+        z-index: 999999;
+        position: fixed;
+        bottom: 130px;
+        left: -140px;
+        width: 200px;
+        height: 400px;
+        background-color: rgb(29 29 29 / 86%);
+        cursor: pointer;
+        color: white;
+        transition: all .2s;
+        border-radius: 4px;
+        text-align: end;
+        transition: all .8s;
+    }
+    .topsite.topsite2{
+        z-index: 999999;
+        position: fixed;
+        bottom: 130px;
+        left: 0px;
+        width: 200px;
+        height: 400px;
+        background-color: rgb(29 29 29 / 86%);
+        cursor: pointer;
+        color: white;
+        transition: all .2s;
+        border-radius: 4px;
+        text-align: end;
+        transition: all .8s;
+    }
+.topsite li{
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+.face:hover{
+    color: blue;
+}
+.you:hover{
+    color: red;
+}
+.ins:hover{
+    color: rgb(248, 43, 111);
+}
+.goo:hover{
+    color: yellow;
+}
+.my:hover{
+    color: gray;
+}
+.serch{
+    z-index: 99999999;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border: rgba(128, 128, 128, 0);
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+    display: none;
+}
+.serch.serchh{
+    z-index: 99999999;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border: rgba(128, 128, 128, 0);
+    cursor: pointer;
+    transition: all .8s;
+    border-radius: 10px;
+    display: table;
+}
+.scroll-div-object{
+    width: 300px;
+    height: 355px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    overflow-y:scroll ;
+    padding: 15px;
+    margin-top: 5px;
+}
+.searchbtn{
+    padding: 10px;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* border-top-left-radius: 10px; */
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.x{
+    margin-left: 3px;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    border-top-right-radius: 10px;
+}
+.x:hover{
+    background-color:rgba(100, 100, 100, 0.658);
+}
+.blaw{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    padding: 20px;
+}
+.blaw:hover{
+    background-color: rgb(180, 176, 176);
+}
+
+
+
+.video{
+    align-items: center;
+    text-align: center;
+    width: 275px;
+    height: 200px;
+    background-image: url(../img2/imedi.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.videop{
+    width: 67px;
+    margin-left: 5%;
+    margin-top: 70px;
+}
+.fd{
+    border: 2px solid #f1f1f1;
+    margin-left: 21px;
+}
+.fd:hover{
+    border: 2px solid black;
+}

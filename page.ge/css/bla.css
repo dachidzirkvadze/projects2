@@ -1,0 +1,12 @@
+.ddd{
+    background-color: #e5e5e5;
+    transition: all .2s;
+    display: flex;
+    text-align:center;
+    margin-left: 10px;
+    width: 190px;
+    border-radius: 5px;
+}
+.ddd:hover{
+    background-color: #c2c2c2;
+}

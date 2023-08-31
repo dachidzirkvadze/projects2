@@ -1,0 +1,232 @@
+@font-face {
+    font-family: font;
+    src: url(../font/bpg_nino_mtavruli_bold.ttf);
+}
+.imgg{
+    text-align: center;
+    position: relative;
+    width: 128%;
+    margin-left: -128px;
+
+}
+.footballl{
+    display: block;
+    width: 100%;
+    height: 638px;
+    margin-top: 5px;
+
+}
+.textt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:all .25s;
+}
+.textt > *{
+    transform: translateY(25px);
+    transition:  transform 0.25s;
+}
+.textt:hover{
+    opacity: 1;
+}
+.textt:hover > *{
+    transform: translateY(0px);
+}
+
+.img{
+    text-align: center;
+    position: relative;
+    width: 88%;
+}
+.football{
+    display: block;
+    width: 88%;
+    height: 208px;
+    margin-top: 5px;
+
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 88%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:all .25s;
+}
+.text > *{
+    transform: translateY(25px);
+    transition:  transform 0.25s;
+}
+.text:hover{
+    opacity: 1;
+}
+.text:hover > *{
+    transform: translateY(0px);
+}
+
+
+
+
+.iimg{
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.ffootball{
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+
+}
+.ttext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:all .25s;
+}
+.ttext > *{
+    transform: translateY(25px);
+    transition:  transform 0.25s;
+}
+.ttext:hover{
+    opacity: 1;
+}
+.ttext:hover > *{
+    transform: translateY(0px);
+}
+
+
+
+.idk{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+
+.iimgg{
+    text-align: center;
+    position: relative;
+    width: 233px;
+    cursor: pointer;
+}
+.ffootballl{
+    display: block;
+    width: 88%;
+    height: 237px;
+    margin-top: 5px;
+
+}
+.ttextt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 88%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:all .25s;
+}
+.ttextt > *{
+    transform: translateY(25px);
+    transition:  transform 0.25s;
+}
+.ttextt:hover{
+    opacity: 1;
+}
+.ttextt:hover > *{
+    transform: translateY(0px);
+}
+
+
+
+.idk{
+    justify-content: flex-end;
+    text-align: right;
+}
+.ad{
+    display: flex;
+}
+.video1{
+    align-items: center;
+    text-align: center;
+    width: 299px;
+    height: 200px;
+    background-image: url(../img2/imedi.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video2{
+    align-items: center;
+    text-align: center;
+    width: 299px;
+    height: 200px;
+    background-image: url(../img2/chemi\ colis\ daqalebi.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video3{
+    align-items: center;
+    text-align: center;
+    width: 299px;
+    height: 200px;
+    background-image: url(../img2/shua\ qalaqi.png);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video4{
+    align-items: center;
+    text-align: center;
+    width: 299px;
+    height: 200px;
+    background-image: url(../img2/imedi.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.vvideo1{
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+}
+.vvideo1:hover{
+    border: 1px solid black;
+}
+.pause{
+    width: 70px;
+    margin-top: 26%;
+}

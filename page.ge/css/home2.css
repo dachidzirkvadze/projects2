@@ -1,0 +1,993 @@
+@font-face {
+  font-family: font;
+  src: url(../font/bpg_nino_mtavruli_bold.ttf);
+}
+* {
+  max-width: 100%;
+}
+body {
+  background-color: #f1f1f1 !important;
+}
+  /**********/
+ /*ნავბარი*/
+/********/
+.xd {
+  z-index: 9999999999999999999999;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  position: fixed !important;
+  transition: all 0.3s;
+  padding: 10px;
+  color: white !important;
+}
+.xxdd {
+  z-index: 99999999999;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  background-color: rgba(29, 29, 29, 0.651) !important;
+  color: white;
+  position: fixed !important;
+  transition: all 0.3s;
+  padding: 0px !important;
+  color: white !important;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-link {
+  color: white !important;
+  margin-right: 5px;
+}
+.nav-link:hover {
+  border-bottom: 2px solid;
+  color: rgba(255, 255, 255, 0.712) !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 18px;
+}
+.dd {
+  justify-content: flex-end;
+}
+
+
+  /****************/
+ /*სერჩის ღილაკი*/
+/***************/
+.top {
+  z-index: 999999;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(179, 179, 179);
+
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 50px;
+}
+.top:hover {
+  background-color: gray;
+}
+.top:focus {
+  background-color: rgb(68, 68, 68);
+}
+
+
+.serch {
+  z-index: 99999999;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(128, 128, 128, 0.795);
+  border: rgba(128, 128, 128, 0);
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 10px;
+  display: none;
+}
+.serch.serchh {
+  z-index: 99999999;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(128, 128, 128, 0.795);
+  border: rgba(128, 128, 128, 0);
+  cursor: pointer;
+  transition: all 0.8s;
+  border-radius: 10px;
+  display: table;
+}
+.scroll-div-object {
+  width: 300px;
+  height: 355px;
+  background-color: rgba(128, 128, 128, 0.795);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 15px;
+  margin-top: 5px;
+}
+.searchbtn {
+  padding: 10px;
+  width: 84%;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-top-left-radius: 10px;
+  height: 35px;
+  border: none;
+  outline: none;
+}
+.x {
+  margin-left: 3px;
+  margin-top: 5px;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(128, 128, 128, 0);
+  border: none;
+  border-top-right-radius: 10px;
+}
+.x:hover {
+  background-color: rgba(100, 100, 100, 0.658);
+}
+.blaw {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 111px;
+  padding: 20px;
+  display: flex;
+}
+.blaw:hover {
+  background-color: rgb(180, 176, 176);
+}
+.searchimg {
+  width: 50px;
+}
+
+  /****************************/
+ /*ფანჯარა ახალი ამბებისთვის*/
+/**************************/
+
+
+  /**************/
+ /*ტოპ საიტები*/
+/*************/
+
+.topsite {
+  z-index: 999999;
+  position: fixed;
+  bottom: 130px;
+  left: -150px;
+  width: 215px;
+  height: 350px;
+  background-color: rgb(29 29 29 / 86%);
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s;
+  border-radius: 4px;
+  text-align: end;
+  transition: all 0.8s;
+}
+.topsite.topsite2 {
+  z-index: 999999;
+  position: fixed;
+  bottom: 130px;
+  left: -25px;
+  width: 215px;
+  height: 350px;
+  background-color: rgb(29 29 29 / 86%);
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s;
+  border-radius: 4px;
+  text-align: end;
+  transition: all 0.8s;
+}
+.slide{
+    color: white;
+    border: none;
+    background-color: #ff000000;
+    outline: none;
+    width: 64px;
+    height: 60px;
+    font-size: 24px;
+}
+.slide:hover{
+  background-color:#a0a0a0a8 ;
+}
+.slidee{
+  fill: white;
+  border: none;
+  background-color: #a0a0a000;
+  outline: none;
+  width: 64px;
+  height: 60px;
+  font-size: 24px;
+}
+.slidee:hover{
+  background-color:#a0a0a0a8 ;
+}
+.arrow{
+  width: 30px;
+}
+.topsite li {
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  margin-top: 35px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 45%;
+}
+.face{
+  margin-top: 10px!important;
+}
+.face:hover {
+  color: blue;
+  fill: blue;
+}
+.you:hover {
+  color: red;
+}
+.ins:hover {
+  color: rgb(216, 29, 233);
+}
+.goo:hover {
+  color: #fbbc05;
+}
+.my:hover {
+  color: #4aa2ee;
+}
+.icon1 {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  right: 18px;
+}
+.icon1:hover {
+  fill: blue;
+}
+.icon2 {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  right: 18px;
+}
+.icon2:hover {
+  fill: #4aa2ee;
+}
+.icon3 {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  right: 18px;
+}
+.icon3:hover {
+  fill: red;
+}
+.icon4 {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  right: 18px;
+}
+.icon4:hover{
+  fill: rgb(216, 29, 233);
+}
+.icon5 {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  right: 18px;
+}
+.icon5:hover{
+  fill: #fbbc05;
+}
+
+
+
+
+.rek{
+  cursor: pointer;
+  border: 2px solid #f1f1f1;
+}
+.rek:hover{
+   border: 2px solid rgb(0, 0, 0);
+}
+.add{
+  background-color: rgb(41, 41, 41);
+  outline: none;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 15px!important;
+  display: flex;
+  align-items: center;
+  margin: auto!important;
+}
+.pluse{
+  width: 20px;
+  fill: white;
+  margin-left: 15px;
+}
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #22222222;
+}
+
+
+.window{
+  padding-top: 65px;
+  width: 100%;
+  background-color: rgb(0 0 0 / 72%);
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: table;
+  position: fixed;
+  display: none;
+  top: 0px;
+  right: 0px;
+}
+.window.wdw{
+  padding-top: 65px;
+  z-index: 9999999;
+  width: 100%;
+  background-color: rgb(0 0 0 / 72%);
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: table;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.windowdiv{
+  width: 85%;
+  height: 100%;
+  padding: 20px;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+.scroll{
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.bllla{
+  cursor: pointer;
+}
+.bllla:hover{
+  background-color: #a1a1a1;
+}
+
+
+/****************/
+/*ფოტო ნაკრები*/
+/**************/
+
+/*პატარა ფოტო 1*/
+.grid {
+  position: relative;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 98%;
+  max-width: 100%;
+  max-height: 258px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+figure.effect-milo {
+  background: #2e5d5a;
+}
+
+figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*პატარა ფოტო 2*/
+.gridd {
+  margin-top: -90px;
+  position: relative;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.gridd figure {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 98%;
+  max-width: 480px;
+  max-height: 259px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gridd figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.gridd figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.gridd figure figcaption::before,
+.gridd figure figcaption::after {
+  pointer-events: none;
+}
+
+.gridd figure figcaption,
+.gridd figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.gridd figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.gridd figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.gridd figure h2 span {
+  font-weight: 800;
+}
+
+.gridd figure h2,
+.gridd figure p {
+  margin: 0;
+}
+
+.gridd figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+figure.effectt-milo {
+  background: #2e5d5a;
+}
+
+figure.effectt-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effectt-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.effectt-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.effectt-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.effectt-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/*ახალი ამბები ფოტო*/
+.ggrid {
+  position: relative;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.ggrid figure {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 150%;
+  max-width: 507px;
+  width: 48%;
+  height: 528px;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ggrid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.ggrid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ggrid figure figcaption::before,
+.ggrid figure figcaption::after {
+  pointer-events: none;
+}
+
+.ggrid figure figcaption,
+.ggrid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.ggrid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.ggrid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.ggrid figure h2 span {
+  font-weight: 800;
+}
+
+.ggrid figure h2,
+.ggrid figure p {
+  margin: 0;
+}
+
+.ggrid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+figure.effect-milo {
+  background: #2e5d5a;
+}
+
+figure.eeffect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.eeffect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.eeffect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.eeffect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.eeffect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/******ბოლო ფოტო width: 100%;******/
+
+.ggridd {
+  position: relative;
+  margin-top: -75px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.ggridd figure {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 98.7%;
+  max-width: 104%;
+  width: 1261px;
+  margin-left: 6px;
+  height: 255px;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ggridd figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.ggridd figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ggridd figure figcaption::before,
+.ggridd figure figcaption::after {
+  pointer-events: none;
+}
+
+.ggridd figure figcaption,
+.ggridd figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.ggridd figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+
+
+.ggridd figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.ggridd figure h2 span {
+  font-weight: 800;
+}
+
+.ggridd figure h2,
+.ggrid figure p {
+  margin: 0;
+}
+
+.ggridd figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+figure.effect-milo {
+  background: #2e5d5a;
+}
+
+figure.eeffectt-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.eeffectt-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.eeffectt-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.eeffectt-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.eeffectt-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video{
+  align-items: center;
+  text-align: center;
+  width: 275px;
+  height: 200px;
+  background-image: url(../img2/imedi.jpg);
+  background-size: cover;
+  cursor: pointer;
+  transition: all .5s;
+}
+.videop{
+  width: 67px;
+  margin-left: 5%;
+  margin-top: 70px;
+}
+.fd{
+  border: 2px solid #f1f1f1;
+  margin-left: 21px;
+}
+.fd:hover{
+  border: 2px solid black;
+}
+
+
+
+.tvimg{
+  position: relative;
+  width: 275px;
+  height: 200px;
+}
+
+.tvimgg{
+  position: absolute;
+  z-index: -1;
+  width: 275px;
+  height: 200px;
+}
+.pause{
+  width: 50px;
+  height: 50px;
+}

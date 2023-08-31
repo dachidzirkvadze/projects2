@@ -1,0 +1,345 @@
+@font-face {
+    font-family: font;
+    src: url(../font/bpg_nino_mtavruli_bold.ttf);
+}
+*{
+    max-width: 100%;
+}
+body{
+    background-color: #f1f1f1!important;
+}
+.xd {
+    z-index: 9999999;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    position: fixed!important;
+    transition: all .3s;
+    padding: 10px;
+    color: white!important;
+  }
+.xxdd{
+    z-index: 9999999;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    background-color: rgba(29, 29, 29, 0.651)!important;
+    color: white;
+    position: fixed!important;
+    transition: all .3s;
+    padding: 0px!important;
+    color: white!important;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255)
+}
+.nav-link{
+    color: white!important;
+    margin-right: 5px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+    color: rgba(255, 255, 255, 0.712)!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 18px;
+}
+.dds{
+    justify-content: flex-end;
+}
+.top{
+    z-index: 999999;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(179, 179, 179);
+
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 50px;
+}
+.top:hover{
+    background-color: gray;
+}
+.top:focus{
+    background-color: rgb(68, 68, 68);
+}
+
+  /**************/
+ /*ტოპ საიტები*/
+/*************/
+
+.topsite {
+    z-index: 999999;
+    position: fixed;
+    bottom: 130px;
+    left: -150px;
+    width: 215px;
+    height: 350px;
+    background-color: rgb(29 29 29 / 86%);
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+    border-radius: 4px;
+    text-align: end;
+    transition: all 0.8s;
+  }
+  .topsite.topsite2 {
+    z-index: 999999;
+    position: fixed;
+    bottom: 130px;
+    left: -25px;
+    width: 215px;
+    height: 350px;
+    background-color: rgb(29 29 29 / 86%);
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+    border-radius: 4px;
+    text-align: end;
+    transition: all 0.8s;
+  }
+  .slide{
+      color: white;
+      border: none;
+      background-color: #ff000000;
+      outline: none;
+      width: 64px;
+      height: 60px;
+      font-size: 24px;
+  }
+  .slide:hover{
+    background-color:#a0a0a0a8 ;
+  }
+  .slidee{
+    fill: white;
+    border: none;
+    background-color: #a0a0a000;
+    outline: none;
+    width: 64px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .slidee:hover{
+    background-color:#a0a0a0a8 ;
+  }
+  .arrow{
+    width: 30px;
+  }
+  .topsite li {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 45%;
+  }
+  .face{
+    margin-top: 10px!important;
+  }
+  .face:hover {
+    color: blue;
+    fill: blue;
+  }
+  .you:hover {
+    color: red;
+  }
+  .ins:hover {
+    color: rgb(216, 29, 233);
+  }
+  .goo:hover {
+    color: #fbbc05;
+  }
+  .my:hover {
+    color: #4aa2ee;
+  }
+  .icon1 {
+    width: 35px;
+    fill: white;
+    position: absolute;
+    right: 18px;
+  }
+  .icon1:hover {
+    fill: blue;
+  }
+  .icon2 {
+    width: 35px;
+    fill: white;
+    position: absolute;
+    right: 18px;
+  }
+  .icon2:hover {
+    fill: #4aa2ee;
+  }
+  .icon3 {
+    width: 35px;
+    fill: white;
+    position: absolute;
+    right: 18px;
+  }
+  .icon3:hover {
+    fill: red;
+  }
+  .icon4 {
+    width: 35px;
+    fill: white;
+    position: absolute;
+    right: 18px;
+  }
+  .icon4:hover{
+    fill: rgb(216, 29, 233);
+  }
+  .icon5 {
+    width: 35px;
+    fill: white;
+    position: absolute;
+    right: 18px;
+  }
+  .icon5:hover{
+    fill: #fbbc05;
+  }
+  
+  /****************/
+ /*სერჩის ღილაკი*/
+/***************/
+.top {
+    z-index: 999999;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(179, 179, 179);
+  
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 50px;
+  }
+  .top:hover {
+    background-color: gray;
+  }
+  .top:focus {
+    background-color: rgb(68, 68, 68);
+  }
+  
+  
+  .serch {
+    z-index: 99999999;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border: rgba(128, 128, 128, 0);
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10px;
+    display: none;
+  }
+  .serch.serchh {
+    z-index: 99999999;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border: rgba(128, 128, 128, 0);
+    cursor: pointer;
+    transition: all 0.8s;
+    border-radius: 10px;
+    display: table;
+  }
+  .scroll-div-object {
+    width: 300px;
+    height: 355px;
+    background-color: rgba(128, 128, 128, 0.795);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 15px;
+    margin-top: 5px;
+  }
+  .searchbtn {
+    padding: 10px;
+    width: 84%;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    height: 35px;
+    border: none;
+    outline: none;
+  }
+  .x {
+    margin-left: 3px;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    border-top-right-radius: 10px;
+  }
+  .x:hover {
+    background-color: rgba(100, 100, 100, 0.658);
+  }
+  .blaw {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    padding: 20px;
+    display: flex;
+  }
+  .blaw:hover {
+    background-color: rgb(180, 176, 176);
+  }
+  .searchimg {
+    width: 50px;
+  }
+  
+
+
+.gray{
+    display: inline-block;
+    margin: 0 0 0px 0;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background: #E3E3E3;
+    border-bottom: solid 1px #C9C9C9;
+}
+.gel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272727;
+    margin: 10px 0 0 10px;
+    font-size: 28px;
+}
+.text1{
+    font-size: 18px;
+    font-family: Sylfaen;
+    margin: 0px;
+    color: #272727;
+}
+.text2{
+    font-size: 12px;
+    font-family: Sylfaen;
+    width: 100%;
+    margin: 0px;
+    color: #808080;
+}
+.dd{
+    border-right: 3px solid #f1f1f1;
+    background-color: #FFF;
+}
+.ddd{
+    background-color: #FFF;
+}

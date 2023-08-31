@@ -1,0 +1,42 @@
+.bod{
+    background-color: rgba(128, 128, 128, 0.596);
+}
+.video1{
+    width: 320px;
+    height: 200px;
+    background-image: url(../img2/imedi.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video2{
+    width: 320px;
+    height: 200px;
+    background-image: url(../img2/chemi\ colis\ daqalebi.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video3{
+    width: 320px;
+    height: 200px;
+    background-image: url(../img2/shua\ qalaqi.png);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.video4{
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    height: 200px;
+    background-image: url(../img2/imedi.jpg);
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s;
+}
+.pause{
+    width: 70px;
+    margin-top: 26%;
+    margin-left: 13%;
+}
